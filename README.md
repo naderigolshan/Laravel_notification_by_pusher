@@ -1,6 +1,6 @@
-This is a project with laravel8 in which a user can send message to another. These messages broadcast on public pusher channel and we have no authentication.
+This is a project with **laravel8** in which a user can send message to another. These messages broadcast on **public pusher channel** and we have no authentication.
 
-Change the following options in .env:
+**Change the following options in .env:**
 
 BROADCAST_DRIVER=pusher
 
@@ -13,7 +13,7 @@ PUSHER_APP_SECRET=9ebaac666cd01ea60289
 PUSHER_APP_CLUSTER=mt1
 
 
-Please see below files for more understanding:
+**Please see below files for more understanding:**
 
 1- web.php
 
@@ -22,7 +22,7 @@ Please see below files for more understanding:
 3- messages.blade and form.blade in resource folder
 
 
-For the beginning run these commands respectively:
+**For the beginning run these commands respectively:**
 
 1- composer require pusher/pusher-php-server
 
